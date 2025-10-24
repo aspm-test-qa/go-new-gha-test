@@ -1,5 +1,4 @@
-name: go-new-gha-test
-
+name: workflow
  
 on:
   push:
@@ -18,7 +17,7 @@ jobs:
       - name: Register Build Artifact
         uses: cloudbees-io-gha/register-build-artifact@v3
         with:
-          name: "go-new-gha-test"
-          version: "tag0.1"
-          url: "020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:tag0.1"
+          name: "gha-1"
+          version: "tag3.0"
+          url: "020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:tag3.0"
           cloudbees-url: "https://api.saas-qa.beescloud.com"      
