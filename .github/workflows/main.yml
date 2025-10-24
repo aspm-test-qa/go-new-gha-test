@@ -1,4 +1,4 @@
-name: sv-gha-workflow
+name: workflow
  
 on:
   push:
